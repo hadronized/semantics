@@ -1,0 +1,20 @@
+[package]
+name = "semantics"
+version = "0.1.0"
+license = "BSD-3-Clause"
+authors = ["Dimitri Sabadie <dimitri.sabadie@gmail.com>"]
+description = "Semantics mapping"
+keywords = ["semantics"]
+homepage = "https://github.com/phaazon/semantics"
+repository = "https://github.com/phaazon/semantics"
+documentation = "https://docs.rs/semantics"
+readme = "../README.md"
+edition = "2021"
+
+[features]
+default = ["semantics-derive"]
+
+[dependencies.semantics-derive]
+version = "0.1"
+path = "../semantics-derive"
+optional = true

@@ -1,0 +1,21 @@
+[package]
+name = "semantics-derive"
+version = "0.1.0"
+license = "BSD-3-Clause"
+authors = ["Dimitri Sabadie <dimitri.sabadie@gmail.com>"]
+description = "Semantics mapping; derive proc-macro"
+keywords = ["semantics"]
+homepage = "https://github.com/phaazon/semantics"
+repository = "https://github.com/phaazon/semantics"
+documentation = "https://docs.rs/semantics-derive"
+readme = "../README.md"
+edition = "2021"
+
+[lib]
+proc-macro = true
+
+[dependencies]
+convert_case = "0.5"
+proc-macro2 = "1"
+quote = "1"
+syn = "1"
